@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.body{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+.weather{
+    font-weight: bold;
+}
+.cityName{
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+}
+.countryCode{
+    font-size: 25px;
+    font-weight: bold;
+}
+.container{
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: 3px 3px 20px 0px #8080808a;
+    background-color:#c9f5b3;
+    text-align: center;
+    border-left: 2px solid #b1d79f;
+    border-top: 2px solid #a6c576;
+}
+.containerHeading{
+    background-color: #d5ff92;
+    color: darkgreen;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.inputForm{
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.locationInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temperatureInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dateInfo{
+    padding: 8px;
+    font-size: 18px;
+    color: #ffbe47;
+}
+.weatherCondition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputBox{
+    font-size: 0.9rem;
+    border-radius: 15px;
+    border: none;
+    padding: 8px;
+    background-color:#dfdfdf;
+    /* color: grey; */
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.inputBox:focus{
+    outline: none;
+}
+.submitButton{
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+.temp{
+    font-size: 29px;
+    color: tomato;
+}
