@@ -61,7 +61,7 @@ class RequestIOController{
             <p class='weather'>Feels like ${Math.round(data.main.feels_like)}&#176;C.${data.weather[0].main}.${data.weather[0].description}</p>
             
             </div>`;
-
+            document.body.style.backgroundImage = `url('https://source.unsplash.com/900x900/?${data.weather[0].main}')`;
             $('div.container').html(htmlString);
         }, (error) => {
             if(error == 'Not Found')

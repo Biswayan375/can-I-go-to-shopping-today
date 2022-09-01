@@ -5,6 +5,8 @@
 }
 body{
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .body{
     max-width: 800px;
@@ -102,4 +104,23 @@ body{
 .temp{
     font-size: 29px;
     color: tomato;
+}
+
+@media (max-width: 768px){
+    body{
+        background-size: contain 10vh;
+    }
+    .inputForm{
+        width: auto;
+    }
+    .container{
+        width: auto;
+    }
+    .body{
+        margin: 2rem auto;
+    }
+    .inputBox{
+        padding: 14px;
+        font-weight: 400;
+    }
 }
